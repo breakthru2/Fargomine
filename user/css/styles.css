@@ -1,0 +1,310 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background-color: #eee;
+}
+
+.container{
+	width: 1200px;
+	min-height: 500px;
+	margin: 0 auto;
+}
+
+.container .header{
+	background-color: #271016;
+	color: #eee;
+	height: 70px;
+	padding: 10px;
+	width: 100%;
+	font-family: arial;
+	border-bottom: 2px solid #eee;
+}
+
+.container .header h1{
+	font-size: 25px;
+	margin: 0;
+	font-style: italic;
+}
+
+.container .header p{
+	margin: -1px 0;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.container .nav{
+	width: 20%;
+	min-height: 500px;
+	background-color: #271016;
+	color: #eee;
+	float: left;
+	padding: 10px;
+}
+
+.container .nav ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.container .nav ul li{
+	width: 100%;
+	height: 40px;
+}
+
+.container .nav ul li a{
+	text-decoration: none;
+	color: #eee;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border-bottom: 1px #eee solid;
+	display: block;
+	font-family: verdana;
+	transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+}
+
+.container .nav ul li a:hover{
+	padding-left: 35px;
+	color: #fff;
+}
+
+.container .main{
+	float: right;
+	padding: 15px;
+	width: 80%;
+	min-height: 500px;
+	background-color: #fff;
+}
+
+.container .main .info .text h1{
+	margin: 0;
+	font-size: 18px;
+	font-style: italic;
+	font-family: cursive;
+}
+
+.container .main .info .text{
+	width: 400px;
+	height: 100%;
+	float: left;
+}
+
+.container .main .info{
+	background-color: #eee;
+	padding: 15px;
+	min-height: 150px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.container .main .info .user-img{
+	float: right;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+}
+
+.container .main .info .text h1{
+	margin: 0 0 5px 0;
+}
+
+.container .main .info .text p{
+	margin: 0;
+	font-family: arial;
+}
+
+.container .main .info .text p a{
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #000;
+	color: #eee;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+.main .details{
+	width: 100%;
+	min-height: 100px;
+	padding: 10px;
+}
+
+.main .details .box{
+	width: 23%;
+	min-height: 120px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
+	background-color: #543A25;
+	padding: 20px 15px;
+}
+
+.main .details .box h1{
+	margin: 0 0 5px 0;
+	font-size: 18px;
+	color: #eee;
+	text-align: right;
+}
+
+.main .details .box h2{
+	margin: 0;
+	font-size: 45px;
+	text-align: right;
+	font-style: italic;
+	color: #eee;
+}
+
+.main .content{
+	width: 100%;
+	min-height: 200px;
+	font-family: verdana;
+}
+
+.container .footer{
+	clear: both;
+	width: 100%;
+	height: 45px;
+	background-color: #000;
+	color: #eee;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.container .footer p{
+	margin: 0;
+}
+
+.container .footer p a{
+	color: #eee;
+	font-style: italic;
+}
+
+.main .form-comp{
+	width: 100%;
+}
+
+.main .form-comp .img-box{
+	width: 32%;
+	height: 300px;
+	overflow: hidden;
+	float: right;
+	margin-left: 10px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: none;
+}
+
+.main .form-comp .error{
+	width: 32%;
+	min-height: 300px;
+	float: right;
+	margin-left: 10px;
+	display: block;
+	padding: 5px;
+}
+
+
+.main .form-comp form{
+	width: 65%;
+	min-height: 300px;
+	float: left;
+}
+
+.main .form-comp form input{
+	width: 100%;
+	display: block;
+	height: 45px;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #eee;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 3px;
+}
+
+.main .form-comp form input[type='file']{
+	width: auto;
+	background-color: #fff;
+	display: inline-block;
+	padding: 0;
+	margin-left: 15px;
+}
+
+.main .form-comp form input[type='radio']{
+	width: auto;
+	background-color: #fff;
+	display: inline-block;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+.main .form-comp form span{
+	padding: 10px;
+}
+
+.main .form-comp form input[type='submit']{
+	background-color: #543A25;
+	color: #eee;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.main .form-comp form select{
+	width: 100%;
+	display: block;
+	height: 45px;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #eee;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 3px;
+}
+
+.main .form-comp form textarea{
+	width: 100%;
+	display: block;
+	height: 300px;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #eee;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 3px;
+	resize: none;
+}
+
+.main .form-comp form p{
+	margin: 0;
+}
+
+#info{
+	width: 100%;
+	height: 50px;
+	background-color: #5EB355;
+	color: #eee;
+	font-size: 20px;
+	text-align: center;
+	font-family: verdana;
+	padding: 8px 0;
+	border-radius: 3px;
+	margin-top: 25px;
+	display: none;
+}
+
+
+
+
+

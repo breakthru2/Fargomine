@@ -1,0 +1,6 @@
+ .row .col-md-6 .profilepic{
+    width: 100%;
+    min-height:300px; 
+    border:1px solid black;
+}
+
